@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Joyeux - Children's Art Studio Bekasi",
+  "description": "Studio seni rupa anak di Bekasi dengan kurikulum bertahap, pameran galeri karya siswa, dan pendaftaran trial via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

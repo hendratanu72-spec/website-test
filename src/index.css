@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-primary: #533afd;
+  --color-primary-deep: #4434d4;
+  --color-primary-press: #2e2b8c;
+  --color-primary-soft: #665efd;
+  --color-primary-bg-subdued: #b9b9f9;
+  --color-primary-container: #533afd;
+  --color-secondary: #1c1e54;
+  --color-secondary-container: #bdbefe;
+  --color-tertiary: #f5e9d4;
+  --color-tertiary-fixed: #ede1cc;
+  --color-surface: #f8f9ff;
+  --color-surface-dim: #c5dcfb;
+  --color-surface-container: #e5eeff;
+  --color-on-surface: #031d34;
+  --color-on-surface-variant: #474556;
+  --color-ink-secondary: #273951;
+  --color-ink-mute: #64748d;
+  --color-hairline: #e3e8ee;
+  --color-hairline-input: #a8c3de;
+  --color-canvas-soft: #f6f9fc;
+  --color-accent-ruby: #ea2261;
+  --color-accent-magenta: #f96bee;
+  --color-accent-amber: #9b6829;
+}
+
+html {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f8f9ff;
+  color: #031d34;
+}
+
+/* Atelier Joyeux design system elevations */
+.shadow-atelier {
+  box-shadow: 0 1px 3px rgba(0, 55, 112, 0.06), 0 4px 12px rgba(0, 55, 112, 0.04);
+}
+
+.shadow-atelier-hover {
+  box-shadow: 0 8px 24px rgba(0, 55, 112, 0.08), 0 2px 6px rgba(0, 55, 112, 0.04);
+}
+
+.shadow-atelier-floating {
+  box-shadow: 0 12px 32px rgba(0, 55, 112, 0.12), 0 4px 12px rgba(0, 55, 112, 0.06);
+}
+
+/* Atmospheric mesh background wash */
+.bg-atelier-mesh {
+  background: radial-gradient(circle at 10% 20%, rgba(245, 233, 212, 0.5) 0%, transparent 40%),
+              radial-gradient(circle at 90% 10%, rgba(185, 185, 249, 0.25) 0%, transparent 35%),
+              radial-gradient(circle at 50% 80%, rgba(249, 107, 238, 0.08) 0%, transparent 45%);
+}
+
+.bg-atelier-soft {
+  background: radial-gradient(circle at 50% 0%, rgba(229, 238, 255, 0.6) 0%, transparent 60%);
+}
